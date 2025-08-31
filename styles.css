@@ -193,7 +193,7 @@ nav a:hover {
 }
 
 /* ===============================
-   Kunst
+   Kunst/Drum
    =============================== */
 
    .art-pic {
@@ -380,3 +380,4 @@ footer {
 .skills-grid .skill-card:nth-child(5) {
   grid-column: 3 / 4; /
 }
+
