@@ -1,7 +1,7 @@
 # Cezar-Webseite
 ---
 
-Hier ist meine persöhnliche Webseite und dient zum bewerben, skills hobbys und vieles mehr!
+Hier ist meine persöhnliche Webseite und dient zum bewerben, Skills, Hobbys und vieles mehr!
 
 ---
 ## Technologien
