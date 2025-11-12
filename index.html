@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cezar Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    
+      <div class="links">
+        <button class="nav-link" data-target="about">Über mich</button>
+        <button class="nav-link" data-target="skills">Skills</button>
+        <button class="nav-link" data-target="projects">Projekte</button>
+        <button class="nav-link" data-target="hobbys">Hobbys</button>
+        <button class="nav-link" data-target="kontakt">Kontakt</button>
+      </div>
+
+      <button id="themeToggle" class="theme-btn">Dark Mode</button>
+  </nav>
+<main>  
+<!-- Hero -->
+<header class="hero">
+  <div class="hero-flex">
+      <img src="profilbild.jpg" alt="Cezar" class="hero-pic">
+
+      <div class="hero-text">
+          <h1>Cezar Cranganu-Cretu</h1>
+          <p>IMS-Schüler · Applikationsentwicklung</p>
+      </div>
+  </div>
+</header>
+
+  <!-- Accordion -->
+  <div class="accordion">
+
+    <div class="acc-item" id="about">
+      <button class="acc-btn">Über mich</button>
+      <div class="acc-content">
+        <p>Ich bin Schüler an der Informatikmittelschule Baden und suche ein spannendes Praktikum als Informatiker EFZ. Besonders interessieren mich Applikationsentwicklung und IT-Support. In meiner Freizeit arbeite ich gern an eigenen Projekten – z. B. kleine Programme oder Zeichnungen.</p>
+      </div>
+    </div>
+
+<!-- Skills Section -->
+   <div class="acc-item" id="skills">
+  <button class="acc-btn">Skills</button>
+  <div class="acc-content">
+
+    <div class="skill-block">
+      <h3>HTML/CSS</h3>
+      <p>Gute Kenntnisse. Diese Webseite ist komplett von mir gestaltet. Ich arbeite gerne mit Layouts und Farben und verstehe die Grundstruktur moderner Webseiten.</p>
+      <div class="bar"><div class="bar-fill" style="width: 85%;"></div></div>
+    </div>
+
+    <div class="skill-block">
+      <h3>C#</h3>
+      <p>Praktische Erfahrungen mit C# gesammelt, unter anderem durch kleine Programme wie einen Zufallszahlengenerator und ein Ratespiel. Besonders Stolz bin ich auf meinem Taskmanager</p>
+      <div class="bar"><div class="bar-fill" style="width: 70%;"></div></div>
+    </div>
+
+    <div class="skill-block">
+      <h3>JavaScript</h3>
+      <p>Ich lerne DOM-Manipulation und interaktive Webseiten mit dynamischen UI-Elementen.</p>
+      <div class="bar"><div class="bar-fill" style="width: 60%;"></div></div>
+    </div>
+
+    <div class="skill-block">
+      <h3>Python</h3>
+      <p>Grundkenntnisse. Ich finde die Sprache gut verständlich und praktisch für Alltagsaufgaben.</p>
+      <div class="bar"><div class="bar-fill" style="width: 50%;"></div></div>
+    </div>
+
+    <div class="skill-block">
+      <h3>SQL</h3>
+      <p>Sehr gute Erfahrungen mit Datenbankabfragen. Ich übe SELECT-Statements und einfache Bedingungen. Ich finde es spannend, wie Daten strukturiert gespeichert und abgefragt werden können.</p>
+      <div class="bar"><div class="bar-fill" style="width: 90%;"></div></div>
+  </div>
+  </div>
+</div>
+
+
+<!--Project Section-->
+    <div class="acc-item" id="projects">
+  <button class="acc-btn">Projekte</button>
+  <div class="acc-content">
+
+    <div class="project-grid">
+
+      <div class="project-card">
+        <img src="TaskManager.png" alt="Taskmanager">
+        <h3>Taskmanager</h3>
+        <p>Ein Tool zur Organisation von Aufgaben.</p>
+
+         <div class="project-buttons">
+         <a href="https://github.com/MRBadGuy6/MeinTaskmanager" class="p-btn">GitHub</a>
+         </div>
+      </div>
+
+      <div class="project-card">
+        <img src="DrumSite.png" alt="Drum App">
+        <h3>Drum Webapp</h3>
+        <p>Interaktive Drum-Sounds & UI-Elemente.</p>
+
+        <div class="project-buttons">
+         <a href="https://mrbadguy6.github.io/Schlagzeug_Webseite/" class="p-btn">Demo</a>
+         <a href="https://github.com/MRBadGuy6/Schlagzeug_Webseite" class="p-btn">GitHub</a>
+         </div>
+      </div>
+
+      <div class="project-card">
+        <img src="Archiv.png" alt="Webarchiv">
+        <h3>Zufallszahlengenerator</h3>
+        <p>Ein Tom und Jerry Archiv mit allen Episonden chronoligisch geordnet.</p>
+
+        <div class="project-buttons">
+         <a href="https://mrbadguy6.github.io/TomundJerryArchiv/" class="p-btn">Demo</a>
+         <a href="https://github.com/MRBadGuy6/TomundJerryArchiv" class="p-btn">GitHub</a>
+         </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<!-- Hobbys Section -->
+
+    <div class="acc-item" id="hobbys">
+  <button class="acc-btn">Hobbys</button>
+  <div class="acc-content">
+
+      <div class="hobby-gallery">
+
+          <div class="hobby-item">
+              <img src="Schlagzeug.jpg">
+              <p>Schlagzeug</p>
+              <a href="drumcovers.html" class="p-btn">Drum-Covers</a>
+          </div>
+
+          <div class="hobby-item">
+              <img src="Tennis.jpg">
+              <p>Tennis</p>
+          </div>
+
+          <div class="hobby-item">
+              <img src="Japan.jpg">
+              <p>Zeichnen</p>
+              <a href="gallery.html" class="p-btn">Galerie</a>
+          </div>
+
+      </div>
+
+  </div>
+</div>
+<!-- Kontakt Section -->
+
+    <div class="acc-item" id="kontakt">
+  <button class="acc-btn">Kontakt</button>
+  <div class="acc-content">
+    <div class="contact-card">
+      <p>Du kannst mich gerne kontaktieren unter:</p>
+      <a href="mailto:cezar.cretu@outlook.de" class="contact-btn">✉️ cezar.cretu@outlook.de</a>
+      <a href="https://www.linkedin.com/in/cezar-cranganu-cretu-20855a342/" class="contact-btn" target="_blank">🔗 LinkedIn</a>
+      <a href="https://github.com/MRBadGuy6" class="contact-btn" target="_blank">🐙 GitHub</a>
+    </div>
+  </div>
+</div>
+
+
+</div>
+</main>
+  <footer>
+    © 2025 Cezar Cranganu-Cretu
+  </footer>
+
+</body>
+</html>
+
